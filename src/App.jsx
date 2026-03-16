@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import getRandomWord from "./words";
-import Grid from "./components/grid";
-import Keyboard from "./components/keyboard";
+import Grid from "./components/Grid";
+import Keyboard from "./components/Keyboard";
 import Modal from "./components/Modal";
 import { checkIsValidWord } from "./validWords";
 
