@@ -5,6 +5,7 @@ import Grid from "./components/Grid";
 import Keyboard from "./components/Keyboard";
 import Modal from "./components/Modal";
 import { checkIsValidWord } from "./validWords";
+import { Analytics } from "@vercel/analytics/react";
 
 const words = [];
 
@@ -110,6 +111,7 @@ function App() {
       {status !== "playing" && (
         <Modal status={status} word={word} onPlayAgain={initGame} />
       )}
+      <Analytics />
     </>
   );
 }
