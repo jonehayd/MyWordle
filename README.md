@@ -6,7 +6,7 @@ A browser-based clone of the popular word game Wordle, built with React and Vite
 
 ## Live Demo
 
-[Play here](https://your-deployed-url.com)
+[Play here](https://my-wordle-alpha.vercel.app/)
 
 ## How to Play
 
