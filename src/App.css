@@ -144,6 +144,21 @@
   width: 65px;
 }
 
+.key.absent {
+  background: var(--color-absent);
+  color: white;
+}
+
+.key.present {
+  background: rgb(201, 180, 88);
+  color: white;
+}
+
+.key.correct {
+  background: rgb(78, 156, 78);
+  color: white;
+}
+
 .key svg {
   width: 60px;
 }

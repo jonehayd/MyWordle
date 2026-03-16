@@ -63,9 +63,9 @@ function App() {
     setCurrentGuess("");
 
     if (currentGuess === word) {
-      winGame();
+      setTimeout(winGame, 900);
     } else if (guesses.length + 1 >= 6) {
-      loseGame();
+      setTimeout(loseGame, 900);
     }
   }
 
