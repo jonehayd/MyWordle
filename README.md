@@ -1,16 +1,42 @@
-# React + Vite
+# Wordle Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Wordle Clone
 
-Currently, two official plugins are available:
+A browser-based clone of the popular word game Wordle, built with React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Wordle Clone Screenshot](.github/screenshot.png)
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Play here](https://your-deployed-url.com)
 
-## Expanding the ESLint configuration
+## How to Play
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Guess the hidden 5-letter word in 6 attempts
+- After each guess, tiles change color to show how close you were:
+  - **Green** — correct letter, correct position
+  - **Yellow** — correct letter, wrong position
+  - **Gray** — letter not in the word
+- Submitted words are validated against a txt file of 5700 words. Many valid 5 letter words are missing.
+
+## Features
+
+- Physical keyboard and on-screen keyboard support
+- Word validation against a full 5-letter word list
+- Tile flip animation on guess submission
+- Tile pop animation when typing
+- Row shake animation on invalid word
+- Win/lose modal with play again option
+
+## Tech Stack
+
+- React
+- Vite
+- CSS
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
