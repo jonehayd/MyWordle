@@ -4,7 +4,7 @@
 
 A browser-based clone of the popular word game Wordle, built with React and Vite.
 
-![Wordle Clone Screenshot](.github/screenshot.png)
+![Wordle Clone Screenshot](.github/game_screenshot.png)
 
 ## Live Demo
 
