@@ -1,7 +1,5 @@
 # Wordle Clone
 
-# Wordle Clone
-
 A browser-based clone of the popular word game Wordle, built with React and Vite.
 
 ![Wordle Clone Screenshot](.github/game_screenshot.png)
